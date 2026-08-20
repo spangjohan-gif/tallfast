@@ -21,9 +21,11 @@ export const Route = createFileRoute("/")({
           "Bostadsutveckling med arkitektonisk höjd – och konsulttjänster inom markförädling, projektledning, byggbedömning och kontrollansvar.",
       },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: "/" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
+      { rel: "canonical", href: "/" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
