@@ -74,6 +74,21 @@ const services = [
     title: "Kontrollansvarig",
     text: "Certifierad kontrollansvarig enligt PBL: kontrollplan, tekniskt samråd, arbetsplatsbesök, slutsamråd och stöd genom hela myndighetsprocessen.",
   },
+  {
+    nr: "06",
+    title: "Hållbarhetsstrategi",
+    text: "Strategisk rådgivning och implementering av hållbarhetsmål i fastighetsutveckling – från policy och målbild till valbara åtgärder och uppföljning i hela projektets livscykel.",
+  },
+  {
+    nr: "07",
+    title: "Förändringsledning",
+    text: "Vi stöttar organisationer i omställningar till mer hållbart byggande och nya arbetssätt – med strukturerad förändringsledning, kommunikation och förankring på alla nivåer.",
+  },
+  {
+    nr: "08",
+    title: "Operativt genomförande",
+    text: "Förverkligande av strategi i praktiken: handlingsplaner, upphandlingskrav, uppföljning på arbetsplats och säkerställande av att hållbarhetsmål når ända till färdigt resultat.",
+  },
 ];
 
 const process = [
