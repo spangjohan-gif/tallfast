@@ -12,13 +12,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Tall utvecklar arkitektoniskt tilltalande och kvalitativa bostäder, samt erbjuder projektutveckling, markförädling, projektledning, byggbedömning och kontrollansvar.",
+          "Tall är en bostadsutvecklare som förvärvar mark, driver utveckling och skapar kvalitativa bostäder. Som komplement erbjuds konsulttjänster inom markförädling, projektledning, byggbedömning och kontrollansvar.",
       },
       { property: "og:title", content: "Tall – Fastighetsutveckling & projektutveckling" },
       {
         property: "og:description",
         content:
-          "Bostadsutveckling med arkitektonisk höjd – och konsulttjänster inom markförädling, projektledning, byggbedömning och kontrollansvar.",
+          "Bostadsutvecklare som förvärvar mark, driver utveckling och skapar bostäder med arkitektonisk höjd. Konsulttjänster erbjuds som komplement.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
@@ -48,11 +48,11 @@ const projects = [
   { year: "2021", name: "Kv. Tegelbruket", meta: "Vasastan / Färdigställt", img: project3 },
 ];
 
-const services = [
+const coreServices = [
   {
     nr: "01",
     title: "Projektutveckling",
-    text: "Vi tar rollen som utvecklare åt fastighetsägare och byggherrar – från idé och volymstudie till kalkyl, upphandling och färdig bostad.",
+    text: "Vi förvärvar mark och tar rollen som utvecklare – från idé och volymstudie till kalkyl, upphandling och färdig bostad.",
   },
   {
     nr: "02",
@@ -64,6 +64,9 @@ const services = [
     title: "Projektledning",
     text: "Ledning av byggprojekt i alla skeden – tid, ekonomi, kvalitet och upphandling – med tydlig styrning och rapportering till beställaren.",
   },
+];
+
+const consultingServices = [
   {
     nr: "04",
     title: "Byggbedömare",
@@ -156,8 +159,8 @@ function Index() {
               SOM DRÖJER KVAR.
             </h1>
             <p className="max-w-md text-balance font-mono text-[12px] uppercase tracking-widest">
-              Fastighetsutveckling och projektutveckling med fokus på bestående kvalitet, ärliga
-              material och nordiskt ljus.
+              Bostadsutvecklare. Vi förvärvar mark, driver utveckling och skapar bostäder med
+              bestående kvalitet, ärliga material och nordiskt ljus.
             </p>
           </div>
         </section>
@@ -169,15 +172,15 @@ function Index() {
           </div>
           <div className="md:col-span-8">
             <h2 className="mb-12 text-pretty text-4xl font-extrabold tracking-tight md:text-6xl">
-              Vi tror på det långsamma byggandet. En balans mellan{" "}
-              <span className="font-serif italic font-normal text-accent">rå betong</span> och
-              ljust furu.
+              Tall är en bostadsutvecklare. Vi förvärvar{" "}
+              <span className="font-serif italic font-normal text-accent">mark</span>, driver
+              utveckling och skapar bostäder som åldras med värdighet.
             </h2>
             <p className="max-w-xl text-lg leading-relaxed text-muted-foreground md:text-xl">
-              Tall grundades ur en frustration över det generiska. Vi skapar bostäder som inte bara
-              fungerar som maskiner för boende, utan som estetiska upplevelser som åldras med
-              värdighet. Samma kompetens erbjuder vi som konsult åt fastighetsägare, byggherrar och
-              investerare.
+              Vi grundades ur en frustration över det generiska. Tall skapar bostäder som inte bara
+              fungerar som maskiner för boende, utan som estetiska upplevelser – en balans mellan rå
+              betong och ljust furu, byggd för att bestå. Som komplement erbjuder vi samma kompetens
+              som konsulttjänster åt fastighetsägare, byggherrar och investerare.
             </p>
           </div>
         </section>
@@ -189,17 +192,47 @@ function Index() {
               Tjänster
             </h2>
             <span className="pb-2 font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
-              (02) Konsultuppdrag
+              (02) Utveckling & rådgivning
             </span>
           </div>
-          <div className="grid grid-cols-1 gap-x-16 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
-            {services.map((s) => (
-              <article key={s.nr} className="border-t border-border pt-6">
-                <div className="mb-6 font-mono text-xs text-accent">{s.nr}</div>
-                <h3 className="mb-4 text-2xl font-extrabold tracking-tight">{s.title}</h3>
-                <p className="max-w-sm text-sm leading-relaxed text-muted-foreground">{s.text}</p>
-              </article>
-            ))}
+
+          {/* Kärnverksamhet: Bostadsutveckling */}
+          <div className="mb-20">
+            <p className="mb-10 max-w-2xl text-2xl font-extrabold tracking-tight md:text-3xl">
+              Tall förvärvar mark, driver utveckling och skapar bostäder – från första volymstudie
+              till färdigställt hem.
+            </p>
+            <div className="grid grid-cols-1 gap-x-16 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
+              {coreServices.map((s) => (
+                <article key={s.nr} className="border-t border-border pt-6">
+                  <div className="mb-6 font-mono text-xs text-accent">{s.nr}</div>
+                  <h3 className="mb-4 text-2xl font-extrabold tracking-tight">{s.title}</h3>
+                  <p className="max-w-sm text-sm leading-relaxed text-muted-foreground">{s.text}</p>
+                </article>
+              ))}
+            </div>
+          </div>
+
+          {/* Komplement: Konsulttjänster */}
+          <div>
+            <div className="mb-10 flex items-center gap-4">
+              <span className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
+                Komplement
+              </span>
+              <span className="h-px flex-1 bg-border" />
+            </div>
+            <h3 className="mb-10 text-xl font-extrabold tracking-tight md:text-2xl">
+              Konsulttjänster
+            </h3>
+            <div className="grid grid-cols-1 gap-x-16 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
+              {consultingServices.map((s) => (
+                <article key={s.nr} className="border-t border-border/60 pt-6">
+                  <div className="mb-4 font-mono text-xs text-muted-foreground">{s.nr}</div>
+                  <h3 className="mb-3 text-lg font-extrabold tracking-tight">{s.title}</h3>
+                  <p className="max-w-sm text-sm leading-relaxed text-muted-foreground">{s.text}</p>
+                </article>
+              ))}
+            </div>
           </div>
         </section>
 
