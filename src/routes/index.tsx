@@ -89,6 +89,11 @@ const services = [
     title: "Operativt genomförande",
     text: "Förverkligande av strategi i praktiken: handlingsplaner, upphandlingskrav, uppföljning på arbetsplats och säkerställande av att hållbarhetsmål når ända till färdigt resultat.",
   },
+  {
+    nr: "09",
+    title: "Cirkulär affärsmodellering",
+    text: "Vi utformar cirkulära affärsmodeller för fastighetsutveckling – återbruk av material, design för demontering, livscykelvärdering och intäktsmodeller som håller över tid.",
+  },
 ];
 
 const process = [
