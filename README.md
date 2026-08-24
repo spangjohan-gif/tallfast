@@ -1,6 +1,6 @@
 # Tallfast
 
-jag vill bygga en hemsida till mitt bolag, www.tall.se, bolaget är ett fastighetsutvecklingsbolag med fokus på utveckling av arkitektoniskt tilltalande, nytänkande och kvalitativa bostäder
+bolaget är ett fastighetsutvecklingsbolag med fokus på utveckling av arkitektoniskt tilltalande, nytänkande och kvalitativa bostäder
 
 This project was built with [Lovable](https://lovable.dev).
 
