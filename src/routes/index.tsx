@@ -190,10 +190,10 @@ function Index() {
               TALL.
             </span>
             <address className="space-y-2 font-mono text-[10px] uppercase not-italic tracking-widest">
-              <p>Skeppsbron 12</p>
-              <p>111 30 Stockholm</p>
+              <p>Olympiavägen 94</p>
+              <p>112 40 Enskede</p>
               <p className="mt-4 text-accent">
-                <a href="mailto:info@tall.se">info@tall.se</a>
+                <a href="mailto:johan@tallfast.se">johan@tallfast.se</a>
               </p>
             </address>
           </div>
