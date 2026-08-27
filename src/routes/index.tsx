@@ -1,24 +1,21 @@
 import { createFileRoute } from "@tanstack/react-router";
 
 import heroImg from "@/assets/hero.jpg";
-import project1 from "@/assets/project-1.jpg";
-import project2 from "@/assets/project-2.jpg";
-import project3 from "@/assets/project-3.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Tall – Fastighetsutveckling & projektutveckling" },
+      { title: "Tall – Konsulttjänster inom fastighet och hållbarhet" },
       {
         name: "description",
         content:
-          "Tall är en bostadsutvecklare som förvärvar mark, driver utveckling och skapar kvalitativa bostäder. Som komplement erbjuds konsulttjänster inom markförädling, projektledning, byggbedömning och kontrollansvar.",
+          "Tall erbjuder konsulttjänster inom projektledning, affärs- och projektutveckling, hållbarhetsexpertis och kommunikation – strategisk rådgivning och operativt genomförande i fastighetsutveckling.",
       },
-      { property: "og:title", content: "Tall – Fastighetsutveckling & projektutveckling" },
+      { property: "og:title", content: "Tall – Konsulttjänster inom fastighet och hållbarhet" },
       {
         property: "og:description",
         content:
-          "Bostadsutvecklare som förvärvar mark, driver utveckling och skapar bostäder med arkitektonisk höjd. Konsulttjänster erbjuds som komplement.",
+          "Projektledning, affärs- och projektutveckling, hållbarhetsexpertis och kommunikation. Strategisk rådgivning och operativt genomförande.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
@@ -37,83 +34,44 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const projects = [
-  {
-    year: "2023—24",
-    name: "Kv. Snickaren",
-    meta: "Stockholm / Under konstruktion",
-    img: project1,
-  },
-  { year: "2022", name: "Villa Tallbacken", meta: "Nacka / Färdigställt", img: project2 },
-  { year: "2021", name: "Kv. Tegelbruket", meta: "Vasastan / Färdigställt", img: project3 },
-];
-
-const coreServices = [
+const services = [
   {
     nr: "01",
-    title: "Projektutveckling",
-    text: "Vi förvärvar mark och tar rollen som utvecklare – från idé och volymstudie till kalkyl, upphandling och färdig bostad.",
+    title: "Projektledning & affärs- och projektutveckling",
+    text: "Vi identifierar mark, driver detaljplanearbete och markförädling, och utvecklar befintliga fastigheter. Projektledning genom hela processen – från idé och kalkyl till upphandling och färdigt resultat.",
   },
   {
     nr: "02",
-    title: "Markförädling",
-    text: "Vi driver detaljplaneprocessen: planbesked, dialog med kommun och myndigheter, utredningar, samråd och granskning fram till lagakraftvunnen plan.",
+    title: "Hållbarhetsexpert",
+    text: "Vi kliver in som hållbarhetschef, manager eller interim. Strategisk rådgivning och operativt genomförande av hållbarhetsmål – från målbild och policy till valbara åtgärder och uppföljning.",
   },
   {
     nr: "03",
-    title: "Projektledning",
-    text: "Ledning av byggprojekt i alla skeden – tid, ekonomi, kvalitet och upphandling – med tydlig styrning och rapportering till beställaren.",
-  },
-];
-
-const consultingServices = [
-  {
-    nr: "04",
-    title: "Byggbedömare",
-    text: "Oberoende bedömning av produktion, ekonomi och tekniskt utförande åt banker, investerare och styrelser inför och under byggnation.",
-  },
-  {
-    nr: "05",
-    title: "Kontrollansvarig",
-    text: "Certifierad kontrollansvarig enligt PBL: kontrollplan, tekniskt samråd, arbetsplatsbesök, slutsamråd och stöd genom hela myndighetsprocessen.",
-  },
-  {
-    nr: "06",
-    title: "Hållbarhetsstrategi",
-    text: "Strategisk rådgivning och implementering av hållbarhetsmål i fastighetsutveckling – från policy och målbild till valbara åtgärder och uppföljning i hela projektets livscykel.",
-  },
-  {
-    nr: "07",
-    title: "Förändringsledning",
-    text: "Vi stöttar organisationer i omställningar till mer hållbart byggande och nya arbetssätt – med strukturerad förändringsledning, kommunikation och förankring på alla nivåer.",
-  },
-  {
-    nr: "08",
-    title: "Operativt genomförande",
-    text: "Förverkligande av strategi i praktiken: handlingsplaner, upphandlingskrav, uppföljning på arbetsplats och säkerställande av att hållbarhetsmål når ända till färdigt resultat.",
-  },
-  {
-    nr: "09",
-    title: "Cirkulär affärsmodellering",
-    text: "Vi utformar cirkulära affärsmodeller för fastighetsutveckling – återbruk av material, design för demontering, livscykelvärdering och intäktsmodeller som håller över tid.",
+    title: "Kommunikation",
+    text: "Vi upprättar strategier och stöttar implementeringen. Strategisk rådgivning och förankring som gör att mål och budskap når ända ut i organisationen och till intressenter.",
   },
 ];
 
 const process = [
   {
-    nr: "01 / Analys",
-    title: "Platsens själ",
-    text: "Varje uppdrag börjar med en djupanalys av topografi, ljusinsläpp, planförutsättningar och historisk kontext.",
+    nr: "01 / Förståelse",
+    title: "Förstå behovet",
+    text: "Vi börjar i varje uppdrag med att förstå din situation, dina mål och dina utmaningar – och identifiera vad som faktiskt behöver göras.",
   },
   {
-    nr: "02 / Materialitet",
-    title: "Ärliga val",
-    text: "Vi väljer material som tål tidens tand. Massivt trä, sten, tegel och rå betong.",
+    nr: "02 / Plan",
+    title: "Skapa en plan",
+    text: "Utifrån behovet tar vi fram en tydlig plan för vad som behöver göras – avgränsat, prioriterat och med rätt resurser och tidslinje.",
   },
   {
-    nr: "03 / Realisering",
-    title: "Hantverk",
-    text: "Tillsammans med ledande arkitekter förverkligar vi visionen med precision i varje detalj.",
+    nr: "03 / Förankring",
+    title: "Planera och förankra",
+    text: "Vi planerar genomförandet och förankrar planen hos beslutstagare och medarbetare så att alla drar åt samma håll.",
+  },
+  {
+    nr: "04 / Genomförande",
+    title: "Genomföra och följa upp",
+    text: "Vi genomför tillsammans med er, följer upp mot uppsatta mål och säkerställer att resultatet består efter uppdragets slut.",
   },
 ];
 
@@ -129,9 +87,6 @@ function Index() {
           <a href="#tjanster" className="transition-colors hover:text-accent">
             Tjänster
           </a>
-          <a href="#projekt" className="transition-colors hover:text-accent">
-            Projekt
-          </a>
           <a href="#process" className="transition-colors hover:text-accent">
             Process
           </a>
@@ -146,7 +101,7 @@ function Index() {
         <section className="relative flex h-screen flex-col justify-end overflow-hidden p-6 md:p-12">
           <img
             src={heroImg}
-            alt="Nordisk bostadsarkitektur i betong och furu i mjukt morgonljus"
+            alt="Nordisk arkitektur i mjukt ljus"
             width={1920}
             height={1088}
             className="absolute inset-0 -z-10 h-full w-full scale-105 object-cover"
@@ -154,13 +109,13 @@ function Index() {
           <div className="absolute inset-0 -z-10 bg-foreground/20" />
           <div className="animate-reveal max-w-4xl text-background">
             <h1 className="mb-8 text-6xl font-extrabold leading-[0.85] tracking-tighter md:text-[110px]">
-              ARKITEKTUR
+              STRATEGISK
               <br />
-              SOM DRÖJER KVAR.
+              RÅDGIVNING.
             </h1>
             <p className="max-w-md text-balance font-mono text-[12px] uppercase tracking-widest">
-              Bostadsutvecklare. Vi förvärvar mark, driver utveckling och skapar bostäder med
-              bestående kvalitet, ärliga material och nordiskt ljus.
+              Konsulttjänster inom fastighet och hållbarhet. Projektledning, hållbarhetsexpertis och
+              kommunikation – från insikt till genomfört resultat.
             </p>
           </div>
         </section>
@@ -172,15 +127,15 @@ function Index() {
           </div>
           <div className="md:col-span-8">
             <h2 className="mb-12 text-pretty text-4xl font-extrabold tracking-tight md:text-6xl">
-              Tall är en bostadsutvecklare. Vi förvärvar{" "}
-              <span className="font-serif italic font-normal text-accent">mark</span>, driver
-              utveckling och skapar bostäder som åldras med värdighet.
+              Tall är en konsultverksamhet. Vi hjälper fastighetsägare, byggherrar och organisationer
+              att{" "}
+              <span className="font-serif italic font-normal text-accent">realisera</span> projekt
+              och hållbarhetsmål – med tydlig process och genomförande som består.
             </h2>
             <p className="max-w-xl text-lg leading-relaxed text-muted-foreground md:text-xl">
-              Vi grundades ur en frustration över det generiska. Tall skapar bostäder som inte bara
-              fungerar som maskiner för boende, utan som estetiska upplevelser – en balans mellan rå
-              betong och ljust furu, byggd för att bestå. Som komplement erbjuder vi samma kompetens
-              som konsulttjänster åt fastighetsägare, byggherrar och investerare.
+              Vi kombinerar projektledning, affärs- och projektutveckling, hållbarhetsexpertis och
+              kommunikation. Oavsett uppdrag börjar vi i behovet, skapar en plan, förankrar och
+              genomför – och följer upp så att resultatet lever kvar.
             </p>
           </div>
         </section>
@@ -192,87 +147,17 @@ function Index() {
               Tjänster
             </h2>
             <span className="pb-2 font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
-              (02) Utveckling & rådgivning
+              (02) Konsulttjänster
             </span>
           </div>
 
-          {/* Kärnverksamhet: Bostadsutveckling */}
-          <div className="mb-20">
-            <p className="mb-10 max-w-2xl text-2xl font-extrabold tracking-tight md:text-3xl">
-              Tall förvärvar mark, driver utveckling och skapar bostäder – från första volymstudie
-              till färdigställt hem.
-            </p>
-            <div className="grid grid-cols-1 gap-x-16 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
-              {coreServices.map((s) => (
-                <article key={s.nr} className="border-t border-border pt-6">
-                  <div className="mb-6 font-mono text-xs text-accent">{s.nr}</div>
-                  <h3 className="mb-4 text-2xl font-extrabold tracking-tight">{s.title}</h3>
-                  <p className="max-w-sm text-sm leading-relaxed text-muted-foreground">{s.text}</p>
-                </article>
-              ))}
-            </div>
-          </div>
-
-          {/* Komplement: Konsulttjänster */}
-          <div>
-            <div className="mb-10 flex items-center gap-4">
-              <span className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
-                Komplement
-              </span>
-              <span className="h-px flex-1 bg-border" />
-            </div>
-            <h3 className="mb-10 text-xl font-extrabold tracking-tight md:text-2xl">
-              Konsulttjänster
-            </h3>
-            <div className="grid grid-cols-1 gap-x-16 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
-              {consultingServices.map((s) => (
-                <article key={s.nr} className="border-t border-border/60 pt-6">
-                  <div className="mb-4 font-mono text-xs text-muted-foreground">{s.nr}</div>
-                  <h3 className="mb-3 text-lg font-extrabold tracking-tight">{s.title}</h3>
-                  <p className="max-w-sm text-sm leading-relaxed text-muted-foreground">{s.text}</p>
-                </article>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Projekt */}
-        <section id="projekt" className="bg-foreground py-20 text-background">
-          <div className="px-6 md:px-12">
-            <div className="mb-8 flex items-end justify-between border-b border-background/20 pb-8">
-              <h2 className="text-4xl font-extrabold uppercase tracking-tighter md:text-5xl">
-                Valda projekt
-              </h2>
-              <span className="pb-2 font-mono text-[10px] uppercase tracking-widest">
-                (03) Portfolio
-              </span>
-            </div>
-
-            {projects.map((p) => (
-              <div
-                key={p.name}
-                className="group flex flex-col items-start gap-8 border-b border-background/10 py-12 md:flex-row md:items-center"
-              >
-                <div className="w-24 font-mono text-[12px] opacity-50">{p.year}</div>
-                <div className="flex-1">
-                  <h3 className="text-3xl font-extrabold tracking-tight transition-all duration-500 group-hover:pl-4 md:text-5xl">
-                    {p.name}
-                  </h3>
-                  <p className="mt-2 font-mono text-[10px] uppercase tracking-widest opacity-50">
-                    {p.meta}
-                  </p>
-                </div>
-                <div className="aspect-video w-full overflow-hidden md:w-64">
-                  <img
-                    src={p.img}
-                    alt={`${p.name}, ${p.meta}`}
-                    loading="lazy"
-                    width={1200}
-                    height={800}
-                    className="h-full w-full object-cover grayscale transition-all duration-700 group-hover:grayscale-0"
-                  />
-                </div>
-              </div>
+          <div className="grid grid-cols-1 gap-x-16 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
+            {services.map((s) => (
+              <article key={s.nr} className="border-t border-border pt-6">
+                <div className="mb-6 font-mono text-xs text-accent">{s.nr}</div>
+                <h3 className="mb-4 text-2xl font-extrabold tracking-tight">{s.title}</h3>
+                <p className="max-w-sm text-sm leading-relaxed text-muted-foreground">{s.text}</p>
+              </article>
             ))}
           </div>
         </section>
@@ -280,9 +165,9 @@ function Index() {
         {/* Process */}
         <section id="process" className="bg-secondary px-6 py-32 md:px-12">
           <div className="mb-16 font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
-            (04) Process
+            (03) Process
           </div>
-          <div className="grid grid-cols-1 gap-16 md:grid-cols-3">
+          <div className="grid grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-4">
             {process.map((p) => (
               <div key={p.nr}>
                 <div className="mb-6 font-mono text-xs text-accent">{p.nr}</div>
@@ -299,7 +184,7 @@ function Index() {
         <div className="flex flex-col items-start justify-between gap-12 md:flex-row md:items-end">
           <div>
             <p className="mb-8 max-w-md text-2xl font-extrabold tracking-tight md:text-3xl">
-              Har du en fastighet, en markanvisning eller ett projekt som söker rätt utvecklare?
+              Har du ett projekt, en fråga eller en utmaning som söker rätt konsult?
             </p>
             <span className="mb-6 block text-6xl font-extrabold tracking-tighter md:text-7xl">
               TALL.
