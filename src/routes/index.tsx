@@ -5,13 +5,13 @@ import heroImg from "@/assets/hero.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Tall – Konsulttjänster inom fastighet och hållbarhet" },
+      { title: "Tall – Tjänster inom fastighet och hållbarhet" },
       {
         name: "description",
         content:
-          "Tall erbjuder konsulttjänster inom projektledning, affärs- och projektutveckling, hållbarhetsexpertis och kommunikation – strategisk rådgivning och operativt genomförande i fastighetsutveckling.",
+          "Tall erbjuder tjänster inom projektledning, affärs- och projektutveckling, hållbarhetsexpertis och kommunikation – strategisk rådgivning och operativt genomförande i fastighetsutveckling.",
       },
-      { property: "og:title", content: "Tall – Konsulttjänster inom fastighet och hållbarhet" },
+      { property: "og:title", content: "Tall – Tjänster inom fastighet och hållbarhet" },
       {
         property: "og:description",
         content:
@@ -114,7 +114,7 @@ function Index() {
               RÅDGIVNING.
             </h1>
             <p className="max-w-md text-balance font-mono text-[12px] uppercase tracking-widest">
-              Konsulttjänster inom fastighet och hållbarhet. Projektledning, hållbarhetsexpertis och
+              Tjänster inom fastighet och hållbarhet. Projektledning, hållbarhetsexpertis och
               kommunikation – från insikt till genomfört resultat.
             </p>
           </div>
@@ -127,8 +127,7 @@ function Index() {
           </div>
           <div className="md:col-span-8">
             <h2 className="mb-12 text-pretty text-4xl font-extrabold tracking-tight md:text-6xl">
-              Tall är en konsultverksamhet. Vi hjälper fastighetsägare, byggherrar och organisationer
-              att{" "}
+              Tall hjälper fastighetsägare, byggherrar och organisationer att{" "}
               <span className="font-serif italic font-normal text-accent">realisera</span> projekt
               och hållbarhetsmål – med tydlig process och genomförande som består.
             </h2>
@@ -147,7 +146,7 @@ function Index() {
               Tjänster
             </h2>
             <span className="pb-2 font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
-              (02) Konsulttjänster
+              (02) Tjänster
             </span>
           </div>
 
@@ -184,7 +183,7 @@ function Index() {
         <div className="flex flex-col items-start justify-between gap-12 md:flex-row md:items-end">
           <div>
             <p className="mb-8 max-w-md text-2xl font-extrabold tracking-tight md:text-3xl">
-              Har du ett projekt, en fråga eller en utmaning som söker rätt konsult?
+              Har du ett projekt, en fråga eller en utmaning som söker rätt samarbetspartner?
             </p>
             <span className="mb-6 block text-6xl font-extrabold tracking-tighter md:text-7xl">
               TALL.
