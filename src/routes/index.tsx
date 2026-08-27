@@ -104,7 +104,7 @@ function Index() {
             alt="Nordisk arkitektur i mjukt ljus"
             width={1920}
             height={1088}
-            className="absolute inset-0 -z-10 h-full w-full scale-105 object-cover"
+            className="absolute inset-0 z-10 h-full w-full scale-105 object-cover"
           />
           <div className="absolute inset-0 -z-10 bg-foreground/20" />
           <div className="animate-reveal max-w-4xl text-background">
