@@ -127,15 +127,24 @@ function Index() {
           </div>
           <div className="md:col-span-8">
             <h2 className="mb-12 text-pretty text-4xl font-extrabold tracking-tight md:text-6xl">
-              Tall hjälper fastighetsägare, byggherrar och organisationer att{" "}
-              <span className="font-serif italic font-normal text-accent">realisera</span> projekt
-              och hållbarhetsmål – med tydlig process och genomförande som består.
+              Tall älskar att{" "}
+              <span className="font-serif italic font-normal text-accent">realisera</span>{" "}
+              projekt med höga hållbarhetsmål – och att skapa bostäder som tål tidens gång.
             </h2>
-            <p className="max-w-xl text-lg leading-relaxed text-muted-foreground md:text-xl">
-              Vi kombinerar projektledning, affärs- och projektutveckling, hållbarhetsexpertis och
-              kommunikation. Oavsett uppdrag börjar vi i behovet, skapar en plan, förankrar och
-              genomför – och följer upp så att resultatet lever kvar.
-            </p>
+            <div className="max-w-xl space-y-6 text-lg leading-relaxed text-muted-foreground md:text-xl">
+              <p>
+                Vi drivs av materialitet, hantverk och omtanke om det som redan finns. Tall tar
+                gärna vara på det befintliga beståndet och utvecklar alla typer av projekt som kan få
+                nytt liv genom ändrad användning, ombyggnad eller tilläggsbebyggelse – det cirkulära
+                tänkandet är en utgångspunkt, inte ett tillägg.
+              </p>
+              <p>
+                Vi är också lite knasiga. Med kreativitet, engagemang och kunskap bidrar Tall gärna
+                till att utveckla bolag som redan är etablerade men som behöver kompetens inom
+                hållbarhet, fastighet och cirkulära affärsmodeller – från idé och strategi till
+                genomfört resultat.
+              </p>
+            </div>
           </div>
         </section>
 
