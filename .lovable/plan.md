@@ -1,26 +1,26 @@
-# Bild på startsidan – hur du gör
+# Underhållssida – "TALL. Kommer snart"
 
-Startsidan har redan en hero-bild (`src/assets/hero.jpg`) i den översta sektionen. Vill du byta den mot en egen bild (t.ex. ett projektfoto) gör du så här.
+Skapa en egen, fristående route som du kan peka domänen (eller en länk/redirect) mot när huvudsidan ska döljas för underhåll.
 
-## A. Använd din egen bild
+## Vad som byggs
 
-1. Ladda upp bildfilen i Lovable (klicka +/upload-ikonen, dra in filen). Den hamnar i projektet som en tillgång.
-2. Säg till mig vilket namn filen har, t.ex. "använd min-foto.jpg som hero-bild".
-3. Jag flyttar filen till `src/assets/`, byter importen i `src/routes/index.tsx` så din bild visas i hero-sektionen, och justerar alt-text och storlek.
-4. Om du vill ha bilden någon annanstans på sidan (Filosofi-, Tjänster- eller Process-sektionen) säger du var, så lägger jag in den där.
+Ny route `src/routes/underhall.tsx` → URL `/underhall`:
 
-Stödda format: JPG, PNG, WebP. För en fullbredds-hero fungerar en horisontell bild bäst (t.ex. 1920×1080).
+- Minimal, centrerad sida i Talls designtokens (cream-bakgrund, ink-text, Inter extra-bold).
+- Stor rubrik: **TALL.**
+- Undertext: **Kommer snart**
+- Ingen nav, ingen sidfot, inga länkar – ren underhållsskärm.
+- Egen `head()` med `noindex` (så den inte indexeras av Google) och title "Tall – Kommer snart".
+- Går att förhandsgranska på `/underhall` direkt.
 
-## B. Låt mig generera en ny bild
+## Hur du använder den
 
-Om du inte har en egen bild kan jag generera en ny i Talls nordiska arkitektur-stil och sätta den som hero. Säg bara "generera en ny hero-bild".
+1. När du vill dölja sidan: peka besökare mot `/underhall` (t.ex. via en redirect, eller tillfälligt byt startsidan).
+2. När underhållet är klart: ta bort redirecten – huvudsidan visar igen.
 
-## C. Lägg till bild bredvid logotypen
+## Val (påverkar inte bygget)
 
-Separat från hero-bilden finns tallsymbolen (`src/assets/tall-mark.png`) som jag kan lägga bredvid "TALL." i menyn och sidfoten om du vill.
+- Vill du att `tall-mark.png`-logotypen ska visas ovanför "TALL."? (annars bara text)
+- Ska undertexten vara "Kommer snart" eller "Underhåll pågår"?
 
-## Vad jag föreslår nu
-
-1. Du laddar upp din bild (eller ber mig generera en).
-2. Jag byter hero-bilden mot din bild och uppdaterar alt-text + SEO (og:image) för delning.
-3. Klart – bilden visas på startsidan.
+Jag går vidare med textversionen ("TALL." + "Kommer snart") om inget annat sägs.
