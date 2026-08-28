@@ -1,8 +1,12 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, redirect } from "@tanstack/react-router";
 
 import heroImg from "@/assets/hero.jpg";
+import { MAINTENANCE_MODE } from "@/lib/maintenance";
 
 export const Route = createFileRoute("/")({
+  beforeLoad: () => {
+    if (MAINTENANCE_MODE) throw redirect({ to: "/underhall" });
+  },
   head: () => ({
     meta: [
       { title: "Tall – Tjänster inom fastighet och hållbarhet" },
