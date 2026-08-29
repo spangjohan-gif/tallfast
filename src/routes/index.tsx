@@ -121,7 +121,7 @@ function Index() {
             className="absolute inset-0 z-10 h-full w-full scale-105 object-cover"
           />
           <div className="absolute inset-0 -z-10 bg-foreground/20" />
-          <div className="animate-reveal max-w-4xl text-background">
+          <div className="animate-reveal relative z-20 max-w-4xl text-background">
             <div className="mb-8 flex items-baseline gap-3">
               <h1 className="text-6xl font-extrabold leading-[0.85] tracking-tighter md:text-[110px]">
                 TALL.
