@@ -1,6 +1,7 @@
 import { createFileRoute, redirect } from "@tanstack/react-router";
 
 import heroImg from "@/assets/hero.jpg";
+import tallMark from "@/assets/tall-mark.png";
 import { MAINTENANCE_MODE } from "@/lib/maintenance";
 
 export const Route = createFileRoute("/")({
