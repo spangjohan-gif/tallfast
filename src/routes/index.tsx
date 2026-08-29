@@ -84,7 +84,16 @@ function Index() {
   return (
     <div className="bg-background text-foreground font-sans">
       <nav className="fixed top-0 left-0 z-50 flex w-full items-baseline justify-between px-6 py-8 mix-blend-difference text-background">
-        <span className="text-2xl font-extrabold tracking-tighter">TALL.</span>
+        <div className="flex items-baseline gap-2">
+          <span className="text-2xl font-extrabold tracking-tighter">TALL.</span>
+          <img
+            src={tallMark}
+            alt="Tall"
+            width={20}
+            height={34}
+            className="h-5 w-auto invert"
+          />
+        </div>
         <div className="hidden gap-8 font-mono text-[10px] uppercase tracking-widest md:flex">
           <a href="#filosofi" className="transition-colors hover:text-accent">
             Filosofi
