@@ -113,11 +113,23 @@ function Index() {
           />
           <div className="absolute inset-0 -z-10 bg-foreground/20" />
           <div className="animate-reveal max-w-4xl text-background">
-            <h1 className="mb-8 text-6xl font-extrabold leading-[0.85] tracking-tighter md:text-[110px]">
+            <div className="mb-8 flex items-baseline gap-3">
+              <h1 className="text-6xl font-extrabold leading-[0.85] tracking-tighter md:text-[110px]">
+                TALL.
+              </h1>
+              <img
+                src={tallMark}
+                alt="Tall"
+                width={48}
+                height={80}
+                className="h-12 w-auto invert md:h-20"
+              />
+            </div>
+            <h2 className="mb-8 text-4xl font-extrabold leading-[0.85] tracking-tighter md:text-6xl">
               STRATEGISK
               <br />
               RÅDGIVNING.
-            </h1>
+            </h2>
             <p className="max-w-md text-balance font-mono text-[12px] uppercase tracking-widest">
               Tjänster inom fastighet och hållbarhet. Projektledning, hållbarhetsexpertis och
               kommunikation – från insikt till genomfört resultat.
@@ -132,7 +144,7 @@ function Index() {
           </div>
           <div className="md:col-span-8">
             <h2 className="mb-12 text-pretty text-4xl font-extrabold tracking-tight md:text-6xl">
-              Tall älskar att{" "}
+              Vi på Tall älskar att{" "}
               <span className="font-serif italic font-normal text-accent">realisera</span>{" "}
               projekt med höga hållbarhetsmål – och att skapa bostäder som tål tidens gång.
             </h2>
@@ -199,9 +211,16 @@ function Index() {
             <p className="mb-8 max-w-md text-2xl font-extrabold tracking-tight md:text-3xl">
               Har du ett projekt, en fråga eller en utmaning som söker rätt samarbetspartner?
             </p>
-            <span className="mb-6 block text-6xl font-extrabold tracking-tighter md:text-7xl">
-              TALL.
-            </span>
+            <div className="mb-6 flex items-baseline gap-3">
+              <span className="text-6xl font-extrabold tracking-tighter md:text-7xl">TALL.</span>
+              <img
+                src={tallMark}
+                alt="Tall"
+                width={40}
+                height={66}
+                className="h-10 w-auto md:h-16"
+              />
+            </div>
             <address className="space-y-2 font-mono text-[10px] uppercase not-italic tracking-widest">
               <p>Olympiavägen 94</p>
               <p>112 40 Enskede</p>
@@ -211,7 +230,7 @@ function Index() {
             </address>
           </div>
           <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
-            © {new Date().getFullYear()} Tall Fastighetsutveckling AB
+            © {new Date().getFullYear()} Tall Utveckling AB
           </p>
         </div>
       </footer>
