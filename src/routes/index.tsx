@@ -135,13 +135,14 @@ function Index() {
               />
             </div>
             <h2 className="mb-8 text-4xl font-extrabold leading-[0.85] tracking-tighter md:text-6xl">
-              STRATEGISK
+              BOSTADS-
               <br />
-              RÅDGIVNING.
+              UTVECKLING.
             </h2>
             <p className="max-w-md text-balance font-mono text-[12px] uppercase tracking-widest">
-              Tjänster inom fastighet och hållbarhet. Projektledning, hållbarhetsexpertis och
-              kommunikation – från insikt till genomfört resultat.
+              Tall utvecklar bostadsprojekt och realiserar detaljplaneprojekt. Vid sidan av
+              kärnverksamheten erbjuder vi också riktad rådgivning inom projektledning,
+              hållbarhet och kommunikation.
             </p>
           </div>
         </section>
