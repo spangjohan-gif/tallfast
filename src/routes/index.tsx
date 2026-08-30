@@ -2,6 +2,7 @@ import { createFileRoute, redirect } from "@tanstack/react-router";
 
 import heroImg from "@/assets/hero.jpg";
 import tallMark from "@/assets/tall-mark.png";
+import tallPine from "@/assets/tall-pine.png.asset.json";
 import { MAINTENANCE_MODE } from "@/lib/maintenance";
 
 export const Route = createFileRoute("/")({
@@ -127,11 +128,11 @@ function Index() {
                 TALL.
               </h1>
               <img
-                src={tallMark}
+                src={tallPine}
                 alt="Tall"
-                width={48}
-                height={80}
-                className="h-12 w-auto invert md:h-20"
+                width={56}
+                height={112}
+                className="h-20 w-auto invert md:h-32"
               />
             </div>
             <h2 className="mb-8 text-4xl font-extrabold leading-[0.85] tracking-tighter md:text-6xl">
