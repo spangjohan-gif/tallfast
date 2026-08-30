@@ -156,14 +156,21 @@ function Index() {
             <h2 className="mb-12 text-pretty text-4xl font-extrabold tracking-tight md:text-6xl">
               Vi på Tall älskar att{" "}
               <span className="font-serif italic font-normal text-accent">realisera</span>{" "}
-              projekt med höga hållbarhetsmål – och att skapa bostäder som tål tidens gång.
+              bostadsprojekt med höga hållbarhetsmål – och att skapa boenden som tål tidens gång.
             </h2>
             <div className="max-w-xl space-y-6 text-lg leading-relaxed text-muted-foreground md:text-xl">
               <p>
-                Vi drivs av materialitet, hantverk och omtanke om det som redan finns. Tall tar
-                gärna vara på det befintliga beståndet och utvecklar alla typer av projekt som kan få
-                nytt liv genom ändrad användning, ombyggnad eller tilläggsbebyggelse – det cirkulära
-                tänkandet är en utgångspunkt, inte ett tillägg.
+                Tall är en fastighetsutvecklare med fokus på bostäder. Vi förvärvar mark, driver
+                detaljplanearbete och genomför utvecklingen från tidig idé till inflyttningsklara
+                hem. Samtidigt är vi öppna för projekt i olika skeden och former – nyproduktion,
+                ombyggnad, tilläggsbebyggelse eller samverkan med andra aktörer där vår kompetens
+                kan tillföra värde.
+              </p>
+              <p>
+                Vi inspireras av visionen om klimatpositivt byggande: vackra hus i biobaserade
+                material, solenergi och omtanke om både människor och miljö. Hållbarhet är inte ett
+                tillval utan en naturlig utgångspunkt i allt vi gör, från materialval och
+                energilösningar till hur boendet skapar gemenskap och långsiktigt värde.
               </p>
               <p>
                 Vi arbetar analytiskt och strategiskt, ser helheten samtidigt som vi omsätter planer
@@ -171,12 +178,6 @@ function Index() {
                 externt – är centrala för hur vi levererar. Komplexa frågor presenterar vi på ett
                 pedagogiskt sätt, anpassat efter målgruppen, så att beslutsunderlag blir tydliga och
                 genomförbara.
-              </p>
-              <p>
-                Hållbarhet och ESG är integrerade delar av vårt arbete, inte en sidofråga. Vi hjälper
-                ledningar och organisationer att balansera ekonomiska, tekniska, verksamhetsmässiga
-                och kulturhistoriska perspektiv – och att vända insikter till långsiktiga lösningar
-                som skapar verkligt värde.
               </p>
             </div>
           </div>
