@@ -165,10 +165,17 @@ function Index() {
                 tänkandet är en utgångspunkt, inte ett tillägg.
               </p>
               <p>
-                Vi är också lite knasiga. Med kreativitet, engagemang och kunskap bidrar Tall gärna
-                till att utveckla bolag som redan är etablerade men som behöver kompetens inom
-                hållbarhet, fastighet och cirkulära affärsmodeller – från idé och strategi till
-                genomfört resultat.
+                Vi arbetar analytiskt och strategiskt, ser helheten samtidigt som vi omsätter planer
+                till konkreta handlingar. Struktur, eget driv och goda samarbeten – både internt och
+                externt – är centrala för hur vi levererar. Komplexa frågor presenterar vi på ett
+                pedagogiskt sätt, anpassat efter målgruppen, så att beslutsunderlag blir tydliga och
+                genomförbara.
+              </p>
+              <p>
+                Hållbarhet och ESG är integrerade delar av vårt arbete, inte en sidofråga. Vi hjälper
+                ledningar och organisationer att balansera ekonomiska, tekniska, verksamhetsmässiga
+                och kulturhistoriska perspektiv – och att vända insikter till långsiktiga lösningar
+                som skapar verkligt värde.
               </p>
             </div>
           </div>
