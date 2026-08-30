@@ -10,17 +10,17 @@ export const Route = createFileRoute("/")({
   },
   head: () => ({
     meta: [
-      { title: "Tall – Tjänster inom fastighet och hållbarhet" },
+      { title: "Tall – Fastighetsutveckling med fokus på bostäder" },
       {
         name: "description",
         content:
-          "Tall erbjuder tjänster inom projektledning, affärs- och projektutveckling, hållbarhetsexpertis och kommunikation – strategisk rådgivning och operativt genomförande i fastighetsutveckling.",
+          "Tall är en fastighetsutvecklare som utvecklar bostadsprojekt och realiserar detaljplaneprojekt. Vid sidan av kärnverksamheten erbjuder vi rådgivning inom projektledning, hållbarhet och kommunikation.",
       },
-      { property: "og:title", content: "Tall – Tjänster inom fastighet och hållbarhet" },
+      { property: "og:title", content: "Tall – Fastighetsutveckling med fokus på bostäder" },
       {
         property: "og:description",
         content:
-          "Projektledning, affärs- och projektutveckling, hållbarhetsexpertis och kommunikation. Strategisk rådgivning och operativt genomförande.",
+          "Tall utvecklar bostadsprojekt och realiserar detaljplaneprojekt. Kompletterande rådgivning inom projektledning, hållbarhet och kommunikation.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
