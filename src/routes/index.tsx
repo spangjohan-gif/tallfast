@@ -10,17 +10,17 @@ export const Route = createFileRoute("/")({
   },
   head: () => ({
     meta: [
-      { title: "Tall – Tjänster inom fastighet och hållbarhet" },
+      { title: "Tall – Fastighetsutveckling med fokus på bostäder" },
       {
         name: "description",
         content:
-          "Tall erbjuder tjänster inom projektledning, affärs- och projektutveckling, hållbarhetsexpertis och kommunikation – strategisk rådgivning och operativt genomförande i fastighetsutveckling.",
+          "Tall är en fastighetsutvecklare som utvecklar bostadsprojekt och realiserar detaljplaneprojekt. Vid sidan av kärnverksamheten erbjuder vi rådgivning inom projektledning, hållbarhet och kommunikation.",
       },
-      { property: "og:title", content: "Tall – Tjänster inom fastighet och hållbarhet" },
+      { property: "og:title", content: "Tall – Fastighetsutveckling med fokus på bostäder" },
       {
         property: "og:description",
         content:
-          "Projektledning, affärs- och projektutveckling, hållbarhetsexpertis och kommunikation. Strategisk rådgivning och operativt genomförande.",
+          "Tall utvecklar bostadsprojekt och realiserar detaljplaneprojekt. Kompletterande rådgivning inom projektledning, hållbarhet och kommunikation.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
@@ -135,13 +135,14 @@ function Index() {
               />
             </div>
             <h2 className="mb-8 text-4xl font-extrabold leading-[0.85] tracking-tighter md:text-6xl">
-              STRATEGISK
+              BOSTADS-
               <br />
-              RÅDGIVNING.
+              UTVECKLING.
             </h2>
             <p className="max-w-md text-balance font-mono text-[12px] uppercase tracking-widest">
-              Tjänster inom fastighet och hållbarhet. Projektledning, hållbarhetsexpertis och
-              kommunikation – från insikt till genomfört resultat.
+              Tall utvecklar bostadsprojekt och realiserar detaljplaneprojekt. Vid sidan av
+              kärnverksamheten erbjuder vi också riktad rådgivning inom projektledning,
+              hållbarhet och kommunikation.
             </p>
           </div>
         </section>
@@ -155,14 +156,21 @@ function Index() {
             <h2 className="mb-12 text-pretty text-4xl font-extrabold tracking-tight md:text-6xl">
               Vi på Tall älskar att{" "}
               <span className="font-serif italic font-normal text-accent">realisera</span>{" "}
-              projekt med höga hållbarhetsmål – och att skapa bostäder som tål tidens gång.
+              bostadsprojekt med höga hållbarhetsmål – och att skapa boenden som tål tidens gång.
             </h2>
             <div className="max-w-xl space-y-6 text-lg leading-relaxed text-muted-foreground md:text-xl">
               <p>
-                Vi drivs av materialitet, hantverk och omtanke om det som redan finns. Tall tar
-                gärna vara på det befintliga beståndet och utvecklar alla typer av projekt som kan få
-                nytt liv genom ändrad användning, ombyggnad eller tilläggsbebyggelse – det cirkulära
-                tänkandet är en utgångspunkt, inte ett tillägg.
+                Tall är en fastighetsutvecklare med fokus på bostäder. Vi förvärvar mark, driver
+                detaljplanearbete och genomför utvecklingen från tidig idé till inflyttningsklara
+                hem. Samtidigt är vi öppna för projekt i olika skeden och former – nyproduktion,
+                ombyggnad, tilläggsbebyggelse eller samverkan med andra aktörer där vår kompetens
+                kan tillföra värde.
+              </p>
+              <p>
+                Vi inspireras av visionen om klimatpositivt byggande: vackra hus i biobaserade
+                material, solenergi och omtanke om både människor och miljö. Hållbarhet är inte ett
+                tillval utan en naturlig utgångspunkt i allt vi gör, från materialval och
+                energilösningar till hur boendet skapar gemenskap och långsiktigt värde.
               </p>
               <p>
                 Vi arbetar analytiskt och strategiskt, ser helheten samtidigt som vi omsätter planer
@@ -170,12 +178,6 @@ function Index() {
                 externt – är centrala för hur vi levererar. Komplexa frågor presenterar vi på ett
                 pedagogiskt sätt, anpassat efter målgruppen, så att beslutsunderlag blir tydliga och
                 genomförbara.
-              </p>
-              <p>
-                Hållbarhet och ESG är integrerade delar av vårt arbete, inte en sidofråga. Vi hjälper
-                ledningar och organisationer att balansera ekonomiska, tekniska, verksamhetsmässiga
-                och kulturhistoriska perspektiv – och att vända insikter till långsiktiga lösningar
-                som skapar verkligt värde.
               </p>
             </div>
           </div>
@@ -185,12 +187,18 @@ function Index() {
         <section id="tjanster" className="border-t border-border bg-secondary px-6 py-32 md:px-12">
           <div className="mb-16 flex items-end justify-between border-b border-border pb-8">
             <h2 className="text-4xl font-extrabold uppercase tracking-tighter md:text-5xl">
-              Tjänster
+              Komplement
             </h2>
             <span className="pb-2 font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
               (02) Tjänster
             </span>
           </div>
+
+          <p className="mb-14 max-w-2xl text-lg leading-relaxed text-muted-foreground md:text-xl">
+            Bredvid vår kärnverksamhet som utvecklare erbjuder vi också riktad rådgivning och
+            operativt stöd – när en organisation behöver kompetens inom fastighet, hållbarhet eller
+            kommunikation.
+          </p>
 
           <div className="grid grid-cols-1 gap-x-16 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
             {services.map((s) => (
