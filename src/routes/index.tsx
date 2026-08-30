@@ -187,12 +187,18 @@ function Index() {
         <section id="tjanster" className="border-t border-border bg-secondary px-6 py-32 md:px-12">
           <div className="mb-16 flex items-end justify-between border-b border-border pb-8">
             <h2 className="text-4xl font-extrabold uppercase tracking-tighter md:text-5xl">
-              Tjänster
+              Komplement
             </h2>
             <span className="pb-2 font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
               (02) Tjänster
             </span>
           </div>
+
+          <p className="mb-14 max-w-2xl text-lg leading-relaxed text-muted-foreground md:text-xl">
+            Bredvid vår kärnverksamhet som utvecklare erbjuder vi också riktad rådgivning och
+            operativt stöd – när en organisation behöver kompetens inom fastighet, hållbarhet eller
+            kommunikation.
+          </p>
 
           <div className="grid grid-cols-1 gap-x-16 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
             {services.map((s) => (
