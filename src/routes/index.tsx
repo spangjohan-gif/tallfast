@@ -1,7 +1,6 @@
 import { createFileRoute, redirect } from "@tanstack/react-router";
 
 import heroImg from "@/assets/hero.jpg";
-import tallMark from "@/assets/tall-mark.png";
 import tallPine from "@/assets/tall-pine.png.asset.json";
 import { MAINTENANCE_MODE } from "@/lib/maintenance";
 
