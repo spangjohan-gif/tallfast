@@ -1,7 +1,6 @@
 import { createFileRoute, redirect } from "@tanstack/react-router";
 
 import heroImg from "@/assets/hero.jpg";
-import tallMark from "@/assets/tall-mark.png";
 import tallPine from "@/assets/tall-pine.png.asset.json";
 import { MAINTENANCE_MODE } from "@/lib/maintenance";
 
@@ -88,7 +87,7 @@ function Index() {
         <div className="flex items-baseline gap-2">
           <span className="text-2xl font-extrabold tracking-tighter">TALL.</span>
           <img
-            src={tallMark}
+            src={tallPine.url}
             alt="Tall"
             width={20}
             height={34}
@@ -239,7 +238,7 @@ function Index() {
             <div className="mb-6 flex items-baseline gap-3">
               <span className="text-6xl font-extrabold tracking-tighter md:text-7xl">TALL.</span>
               <img
-                src={tallMark}
+                src={tallPine.url}
                 alt="Tall"
                 width={40}
                 height={66}
