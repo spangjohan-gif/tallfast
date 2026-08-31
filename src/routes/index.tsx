@@ -128,7 +128,7 @@ function Index() {
                 TALL.
               </h1>
               <img
-                src={tallPine}
+                src={tallPine.url}
                 alt="Tall"
                 width={56}
                 height={112}
