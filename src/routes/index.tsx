@@ -238,7 +238,7 @@ function Index() {
             <div className="mb-6 flex items-baseline gap-3">
               <span className="text-6xl font-extrabold tracking-tighter md:text-7xl">TALL.</span>
               <img
-                src={tallMark}
+                src={tallPine.url}
                 alt="Tall"
                 width={40}
                 height={66}
