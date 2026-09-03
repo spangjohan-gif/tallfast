@@ -8,7 +8,7 @@ export const Route = createFileRoute("/underhall")({
       { property: "og:title", content: "Tall – Kommer snart" },
       { property: "og:type", content: "website" },
     ],
-    links: [{ rel: "canonical", href: "https://tallfast.lovable.app/underhall" }],
+    links: [{ rel: "canonical", href: "https://tallfast.se/underhall" }],
   }),
   component: UnderhallPage,
 });

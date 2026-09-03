@@ -102,16 +102,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Organization",
-          name: "Tall Fastighetsutveckling AB",
-          url: "https://www.tall.se",
-          email: "info@tall.se",
+          name: "Tall Utveckling AB",
+          url: "https://tallfast.se",
+          email: "johan@tallfast.se",
           description:
-            "Fastighetsutveckling och konsulttjänster inom projektutveckling, markförädling, projektledning, byggbedömning och kontrollansvar.",
+            "Tall utvecklar bostadsprojekt och realiserar detaljplaneprojekt. Vid sidan av kärnverksamheten erbjuds riktad rådgivning inom projektledning, hållbarhet och kommunikation.",
           address: {
             "@type": "PostalAddress",
-            streetAddress: "Skeppsbron 12",
-            postalCode: "111 30",
-            addressLocality: "Stockholm",
+            streetAddress: "Olympiavägen 94",
+            postalCode: "112 40",
+            addressLocality: "Enskede",
             addressCountry: "SE",
           },
         }),
