@@ -23,11 +23,11 @@ export const Route = createFileRoute("/")({
           "Tall utvecklar bostadsprojekt och realiserar detaljplaneprojekt. Kompletterande rådgivning inom projektledning, hållbarhet och kommunikation.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "/" },
+      { property: "og:url", content: "https://tallfast.se/" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
-      { rel: "canonical", href: "/" },
+      { rel: "canonical", href: "https://tallfast.se/" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
@@ -134,11 +134,6 @@ function Index() {
                 className="h-20 w-auto invert md:h-32"
               />
             </div>
-            <h2 className="mb-8 text-4xl font-extrabold leading-[0.85] tracking-tighter md:text-6xl">
-              BOSTADS-
-              <br />
-              UTVECKLING.
-            </h2>
             <p className="max-w-md text-balance font-mono text-[12px] uppercase tracking-widest">
               Tall utvecklar bostadsprojekt och realiserar detaljplaneprojekt. Vid sidan av
               kärnverksamheten erbjuder vi också riktad rådgivning inom projektledning,
