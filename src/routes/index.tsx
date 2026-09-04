@@ -146,28 +146,25 @@ function Index() {
             <h2 className="mb-12 text-pretty text-4xl font-extrabold tracking-tight md:text-6xl">
               Vi på Tall älskar att{" "}
               <span className="font-serif italic font-normal text-accent">realisera</span>{" "}
-              bostadsprojekt med höga hållbarhetsmål – och att skapa boenden som tål tidens gång.
+              projekt som bidrar till klimateffektiva bostäder, energieffektiva lokaler och en
+              cirkulär ekonomi.
             </h2>
             <div className="max-w-xl space-y-6 text-lg leading-relaxed text-muted-foreground md:text-xl">
               <p>
-                Tall är en fastighetsutvecklare med fokus på bostäder. Vi förvärvar mark, driver
-                detaljplanearbete och genomför utvecklingen från tidig idé till inflyttningsklara
-                hem. Samtidigt är vi öppna för projekt i olika skeden och former – nyproduktion,
-                ombyggnad, tilläggsbebyggelse eller samverkan med andra aktörer där vår kompetens
-                kan tillföra värde.
+                Allt började med en kurs i hållbar utveckling vid Uppsala universitet 2008. Sedan
+                dess har Johan Spångs fokus varit att skapa bolag, projekt och initiativ som i
+                något avseende bidrar till en mer hållbar byggd miljö.
               </p>
               <p>
-                Vi inspireras av visionen om klimatpositivt byggande: vackra hus i biobaserade
-                material, solenergi och omtanke om både människor och miljö. Hållbarhet är inte ett
-                tillval utan en naturlig utgångspunkt i allt vi gör, från materialval och
-                energilösningar till hur boendet skapar gemenskap och långsiktigt värde.
+                Visionen är tydlig: klimateffektiva bostäder, energieffektiva lokaler och en
+                cirkulär ekonomi där vi i den bästa av världar ger tillbaka till naturen mer än vi
+                tar. Hållbarhet är inte ett tillval utan en naturlig utgångspunkt i allt vi gör.
               </p>
               <p>
                 Vi arbetar analytiskt och strategiskt, ser helheten samtidigt som vi omsätter planer
-                till konkreta handlingar. Struktur, eget driv och goda samarbeten – både internt och
-                externt – är centrala för hur vi levererar. Komplexa frågor presenterar vi på ett
-                pedagogiskt sätt, anpassat efter målgruppen, så att beslutsunderlag blir tydliga och
-                genomförbara.
+                till konkreta handlingar. Struktur, eget driv och goda samarbeten är centrala för hur
+                vi levererar. Komplexa frågor presenterar vi på ett pedagogiskt sätt, anpassat efter
+                målgruppen, så att beslutsunderlag blir tydliga och genomförbara.
               </p>
             </div>
           </div>
