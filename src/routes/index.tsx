@@ -1,7 +1,7 @@
 import { createFileRoute, redirect } from "@tanstack/react-router";
 
 import heroImg from "@/assets/hero.jpg";
-import tallPine from "@/assets/tall-pine.png.asset.json";
+import tallPine from "@/assets/tall-pine.webp";
 import { MAINTENANCE_MODE } from "@/lib/maintenance";
 
 export const Route = createFileRoute("/")({
@@ -87,7 +87,7 @@ function Index() {
         <div className="flex items-baseline gap-2">
           <span className="text-2xl font-extrabold tracking-tighter">TALL.</span>
           <img
-            src={tallPine.url}
+            src={tallPine}
             alt="Tall"
             width={20}
             height={34}
@@ -127,7 +127,7 @@ function Index() {
                 TALL.
               </h1>
               <img
-                src={tallPine.url}
+                src={tallPine}
                 alt="Tall"
                 width={56}
                 height={112}
@@ -233,7 +233,7 @@ function Index() {
             <div className="mb-6 flex items-baseline gap-3">
               <span className="text-6xl font-extrabold tracking-tighter md:text-7xl">TALL.</span>
               <img
-                src={tallPine.url}
+                src={tallPine}
                 alt="Tall"
                 width={40}
                 height={66}
