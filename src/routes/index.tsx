@@ -14,13 +14,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Tall är en fastighetsutvecklare som utvecklar bostadsprojekt och realiserar detaljplaneprojekt. Vid sidan av kärnverksamheten erbjuder vi rådgivning inom projektledning, hållbarhet och kommunikation.",
+          "Tall har kompetenser inom bostadsutveckling, affärs- och projektutveckling, projektledning och hållbarhetsarbete. Vi utvecklar bostadsprojekt och realiserar detaljplaneprojekt.",
       },
       { property: "og:title", content: "Tall – Fastighetsutveckling med fokus på bostäder" },
       {
         property: "og:description",
         content:
-          "Tall utvecklar bostadsprojekt och realiserar detaljplaneprojekt. Kompletterande rådgivning inom projektledning, hållbarhet och kommunikation.",
+          "Tall har kompetenser inom bostadsutveckling, affärs- och projektutveckling, projektledning och hållbarhetsarbete.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "https://tallfast.se/" },
