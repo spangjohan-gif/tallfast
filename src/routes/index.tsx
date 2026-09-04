@@ -219,7 +219,8 @@ function Index() {
         <div className="flex flex-col items-start justify-between gap-12 md:flex-row md:items-end">
           <div>
             <p className="mb-8 max-w-md text-2xl font-extrabold tracking-tight md:text-3xl">
-              Har du ett projekt, en fråga eller en utmaning som söker rätt samarbetspartner?
+              Har du en fastighet, ett projekt eller en utmaning inom hållbarhet som söker rätt
+              samarbetspartner?
             </p>
             <div className="mb-6 flex items-baseline gap-3">
               <span className="text-6xl font-extrabold tracking-tighter md:text-7xl">TALL.</span>
