@@ -14,13 +14,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Tall är en fastighetsutvecklare som utvecklar bostadsprojekt och realiserar detaljplaneprojekt. Vid sidan av kärnverksamheten erbjuder vi rådgivning inom projektledning, hållbarhet och kommunikation.",
+          "Tall har kompetenser inom bostadsutveckling, affärs- och projektutveckling, projektledning och hållbarhetsarbete. Vi utvecklar bostadsprojekt och realiserar detaljplaneprojekt.",
       },
       { property: "og:title", content: "Tall – Fastighetsutveckling med fokus på bostäder" },
       {
         property: "og:description",
         content:
-          "Tall utvecklar bostadsprojekt och realiserar detaljplaneprojekt. Kompletterande rådgivning inom projektledning, hållbarhet och kommunikation.",
+          "Tall har kompetenser inom bostadsutveckling, affärs- och projektutveckling, projektledning och hållbarhetsarbete.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "https://tallfast.se/" },
@@ -48,35 +48,30 @@ const services = [
   {
     nr: "02",
     title: "Hållbarhetsexpert",
-    text: "Vi kliver in som hållbarhetschef, manager eller interim. Strategisk rådgivning och operativt genomförande av hållbarhetsmål – från målbild och policy till valbara åtgärder och uppföljning.",
-  },
-  {
-    nr: "03",
-    title: "Kommunikation",
-    text: "Vi upprättar strategier och stöttar implementeringen. Strategisk rådgivning och förankring som gör att mål och budskap når ända ut i organisationen och till intressenter.",
+    text: "Vi kliver in som hållbarhetschef, manager eller interim. Strategisk rådgivning och operativt genomförande av hållbarhetsmål – från målbild och policy till valbara åtgärder och uppföljning. Kommunikation och förankring ingår som en naturlig del av arbetet.",
   },
 ];
 
 const process = [
   {
-    nr: "01 / Förståelse",
-    title: "Förstå behovet",
-    text: "Vi börjar i varje uppdrag med att förstå din situation, dina mål och dina utmaningar – och identifiera vad som faktiskt behöver göras.",
+    nr: "01 / Analys",
+    title: "Kartlägga utgångsläget",
+    text: "Varje uppdrag börjar med att skapa en tydlig bild av förutsättningarna – mål, utmaningar, möjligheter och vad som faktiskt behöver göras.",
   },
   {
-    nr: "02 / Plan",
-    title: "Skapa en plan",
-    text: "Utifrån behovet tar vi fram en tydlig plan för vad som behöver göras – avgränsat, prioriterat och med rätt resurser och tidslinje.",
+    nr: "02 / Strategi",
+    title: "Ta fram en plan",
+    text: "Utifrån analysen formas en tydlig och genomförbar plan – avgränsad, prioriterad och anpassad efter rätt resurser och tidslinje.",
   },
   {
     nr: "03 / Förankring",
     title: "Planera och förankra",
-    text: "Vi planerar genomförandet och förankrar planen hos beslutstagare och medarbetare så att alla drar åt samma håll.",
+    text: "Vi planerar genomförandet och förankrar arbetet hos beslutstagare och medarbetare så att alla drar åt samma håll.",
   },
   {
     nr: "04 / Genomförande",
-    title: "Genomföra och följa upp",
-    text: "Vi genomför tillsammans med er, följer upp mot uppsatta mål och säkerställer att resultatet består efter uppdragets slut.",
+    title: "Realisera och följa upp",
+    text: "Vi genomför tillsammans med uppdragsgivaren, följer upp mot uppsatta mål och säkerställer att resultatet består över tid.",
   },
 ];
 
@@ -135,9 +130,9 @@ function Index() {
               />
             </div>
             <p className="max-w-md text-balance font-mono text-[12px] uppercase tracking-widest">
-              Tall utvecklar bostadsprojekt och realiserar detaljplaneprojekt. Vid sidan av
-              kärnverksamheten erbjuder vi också riktad rådgivning inom projektledning,
-              hållbarhet och kommunikation.
+              Tall har kompetenser inom bostadsutveckling, affärs- och projektutveckling,
+              projektledning, hållbarhetsarbete (strategi, rapportering, operativ implementering
+              och cirkulära strategier).
             </p>
           </div>
         </section>
@@ -151,28 +146,25 @@ function Index() {
             <h2 className="mb-12 text-pretty text-4xl font-extrabold tracking-tight md:text-6xl">
               Vi på Tall älskar att{" "}
               <span className="font-serif italic font-normal text-accent">realisera</span>{" "}
-              bostadsprojekt med höga hållbarhetsmål – och att skapa boenden som tål tidens gång.
+              projekt som bidrar till klimateffektiva bostäder, energieffektiva lokaler och en
+              cirkulär ekonomi.
             </h2>
             <div className="max-w-xl space-y-6 text-lg leading-relaxed text-muted-foreground md:text-xl">
               <p>
-                Tall är en fastighetsutvecklare med fokus på bostäder. Vi förvärvar mark, driver
-                detaljplanearbete och genomför utvecklingen från tidig idé till inflyttningsklara
-                hem. Samtidigt är vi öppna för projekt i olika skeden och former – nyproduktion,
-                ombyggnad, tilläggsbebyggelse eller samverkan med andra aktörer där vår kompetens
-                kan tillföra värde.
+                Allt började med en kurs i hållbar utveckling vid Uppsala universitet 2008. Sedan
+                dess har Johan Spångs fokus varit att skapa bolag, projekt och initiativ som i
+                något avseende bidrar till en mer hållbar byggd miljö.
               </p>
               <p>
-                Vi inspireras av visionen om klimatpositivt byggande: vackra hus i biobaserade
-                material, solenergi och omtanke om både människor och miljö. Hållbarhet är inte ett
-                tillval utan en naturlig utgångspunkt i allt vi gör, från materialval och
-                energilösningar till hur boendet skapar gemenskap och långsiktigt värde.
+                Visionen är tydlig: klimateffektiva bostäder, energieffektiva lokaler och en
+                cirkulär ekonomi där vi i den bästa av världar ger tillbaka till naturen mer än vi
+                tar. Hållbarhet är inte ett tillval utan en naturlig utgångspunkt i allt vi gör.
               </p>
               <p>
                 Vi arbetar analytiskt och strategiskt, ser helheten samtidigt som vi omsätter planer
-                till konkreta handlingar. Struktur, eget driv och goda samarbeten – både internt och
-                externt – är centrala för hur vi levererar. Komplexa frågor presenterar vi på ett
-                pedagogiskt sätt, anpassat efter målgruppen, så att beslutsunderlag blir tydliga och
-                genomförbara.
+                till konkreta handlingar. Struktur, eget driv och goda samarbeten är centrala för hur
+                vi levererar. Komplexa frågor presenterar vi på ett pedagogiskt sätt, anpassat efter
+                målgruppen, så att beslutsunderlag blir tydliga och genomförbara.
               </p>
             </div>
           </div>
@@ -182,20 +174,19 @@ function Index() {
         <section id="tjanster" className="border-t border-border bg-secondary px-6 py-32 md:px-12">
           <div className="mb-16 flex items-end justify-between border-b border-border pb-8">
             <h2 className="text-4xl font-extrabold uppercase tracking-tighter md:text-5xl">
-              Komplement
+              Tjänster
             </h2>
             <span className="pb-2 font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
-              (02) Tjänster
+              (02) Erbjudande
             </span>
           </div>
 
           <p className="mb-14 max-w-2xl text-lg leading-relaxed text-muted-foreground md:text-xl">
-            Bredvid vår kärnverksamhet som utvecklare erbjuder vi också riktad rådgivning och
-            operativt stöd – när en organisation behöver kompetens inom fastighet, hållbarhet eller
-            kommunikation.
+            Vi erbjuder riktad rådgivning och operativt stöd inom fastighet och hållbarhet – från
+            tidig analys och strategi till genomförande och uppföljning.
           </p>
 
-          <div className="grid grid-cols-1 gap-x-16 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-x-16 gap-y-14 md:grid-cols-2">
             {services.map((s) => (
               <article key={s.nr} className="border-t border-border pt-6">
                 <div className="mb-6 font-mono text-xs text-accent">{s.nr}</div>
@@ -228,7 +219,8 @@ function Index() {
         <div className="flex flex-col items-start justify-between gap-12 md:flex-row md:items-end">
           <div>
             <p className="mb-8 max-w-md text-2xl font-extrabold tracking-tight md:text-3xl">
-              Har du ett projekt, en fråga eller en utmaning som söker rätt samarbetspartner?
+              Har du en fastighet, ett projekt eller en utmaning inom hållbarhet som söker rätt
+              samarbetspartner?
             </p>
             <div className="mb-6 flex items-baseline gap-3">
               <span className="text-6xl font-extrabold tracking-tighter md:text-7xl">TALL.</span>
