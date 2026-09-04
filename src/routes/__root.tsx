@@ -81,9 +81,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Tall utvecklar arkitektoniskt tilltalande bostäder och erbjuder projektutveckling, markförädling, projektledning, byggbedömning och kontrollansvar.",
+          "Tall har kompetenser inom bostadsutveckling, affärs- och projektutveckling, projektledning och hållbarhetsarbete.",
       },
-      { name: "author", content: "Tall Fastighetsutveckling AB" },
+      { name: "author", content: "Tall Utveckling AB" },
       { property: "og:site_name", content: "Tall" },
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "sv_SE" },
