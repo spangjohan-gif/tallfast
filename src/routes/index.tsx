@@ -186,7 +186,7 @@ function Index() {
             tidig analys och strategi till genomförande och uppföljning.
           </p>
 
-          <div className="grid grid-cols-1 gap-x-16 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-x-16 gap-y-14 md:grid-cols-2">
             {services.map((s) => (
               <article key={s.nr} className="border-t border-border pt-6">
                 <div className="mb-6 font-mono text-xs text-accent">{s.nr}</div>
