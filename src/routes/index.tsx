@@ -54,24 +54,24 @@ const services = [
 
 const process = [
   {
-    nr: "01 / Förståelse",
-    title: "Förstå behovet",
-    text: "Vi börjar i varje uppdrag med att förstå din situation, dina mål och dina utmaningar – och identifiera vad som faktiskt behöver göras.",
+    nr: "01 / Analys",
+    title: "Kartlägga utgångsläget",
+    text: "Varje uppdrag börjar med att skapa en tydlig bild av förutsättningarna – mål, utmaningar, möjligheter och vad som faktiskt behöver göras.",
   },
   {
-    nr: "02 / Plan",
-    title: "Skapa en plan",
-    text: "Utifrån behovet tar vi fram en tydlig plan för vad som behöver göras – avgränsat, prioriterat och med rätt resurser och tidslinje.",
+    nr: "02 / Strategi",
+    title: "Ta fram en plan",
+    text: "Utifrån analysen formas en tydlig och genomförbar plan – avgränsad, prioriterad och anpassad efter rätt resurser och tidslinje.",
   },
   {
     nr: "03 / Förankring",
     title: "Planera och förankra",
-    text: "Vi planerar genomförandet och förankrar planen hos beslutstagare och medarbetare så att alla drar åt samma håll.",
+    text: "Vi planerar genomförandet och förankrar arbetet hos beslutstagare och medarbetare så att alla drar åt samma håll.",
   },
   {
     nr: "04 / Genomförande",
-    title: "Genomföra och följa upp",
-    text: "Vi genomför tillsammans med er, följer upp mot uppsatta mål och säkerställer att resultatet består efter uppdragets slut.",
+    title: "Realisera och följa upp",
+    text: "Vi genomför tillsammans med uppdragsgivaren, följer upp mot uppsatta mål och säkerställer att resultatet består över tid.",
   },
 ];
 
