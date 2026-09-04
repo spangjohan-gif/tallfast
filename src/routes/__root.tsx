@@ -106,7 +106,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           url: "https://tallfast.se",
           email: "johan@tallfast.se",
           description:
-            "Tall utvecklar bostadsprojekt och realiserar detaljplaneprojekt. Vid sidan av kärnverksamheten erbjuds riktad rådgivning inom projektledning, hållbarhet och kommunikation.",
+            "Tall har kompetenser inom bostadsutveckling, affärs- och projektutveckling, projektledning och hållbarhetsarbete.",
           address: {
             "@type": "PostalAddress",
             streetAddress: "Olympiavägen 94",
