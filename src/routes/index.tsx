@@ -130,9 +130,9 @@ function Index() {
               />
             </div>
             <p className="max-w-md text-balance font-mono text-[12px] uppercase tracking-widest">
-              Tall utvecklar bostadsprojekt och realiserar detaljplaneprojekt. Vid sidan av
-              kärnverksamheten erbjuder vi också riktad rådgivning inom projektledning,
-              hållbarhet och kommunikation.
+              Tall har kompetenser inom bostadsutveckling, affärs- och projektutveckling,
+              projektledning, hållbarhetsarbete (strategi, rapportering, operativ implementering
+              och cirkulära strategier).
             </p>
           </div>
         </section>
