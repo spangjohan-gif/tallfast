@@ -171,29 +171,25 @@ function Index() {
         </section>
 
         {/* Tjänster */}
-        <section id="tjanster" className="border-t border-border bg-secondary px-6 py-32 md:px-12">
-          <div className="mb-16 flex items-end justify-between border-b border-border pb-8">
-            <h2 className="text-4xl font-extrabold uppercase tracking-tighter md:text-5xl">
-              Tjänster
-            </h2>
-            <span className="pb-2 font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
-              (02) Erbjudande
-            </span>
+        <section id="tjanster" className="border-t border-border bg-secondary px-6 py-32 md:grid-cols-12 md:px-12 md:grid">
+          <div className="pt-4 font-mono text-[10px] uppercase tracking-widest md:col-span-2">
+            (02) Erbjudande
           </div>
+          <div className="md:col-span-8">
+            <p className="mb-14 max-w-2xl text-lg leading-relaxed text-muted-foreground md:text-xl">
+              Vi erbjuder riktad rådgivning och operativt stöd inom fastighet och hållbarhet – från
+              tidig analys och strategi till genomförande och uppföljning.
+            </p>
 
-          <p className="mb-14 max-w-2xl text-lg leading-relaxed text-muted-foreground md:text-xl">
-            Vi erbjuder riktad rådgivning och operativt stöd inom fastighet och hållbarhet – från
-            tidig analys och strategi till genomförande och uppföljning.
-          </p>
-
-          <div className="grid grid-cols-1 gap-x-16 gap-y-14 md:grid-cols-2">
-            {services.map((s) => (
-              <article key={s.nr} className="border-t border-border pt-6">
-                <div className="mb-6 font-mono text-xs text-accent">{s.nr}</div>
-                <h3 className="mb-4 text-2xl font-extrabold tracking-tight">{s.title}</h3>
-                <p className="max-w-sm text-sm leading-relaxed text-muted-foreground">{s.text}</p>
-              </article>
-            ))}
+            <div className="grid grid-cols-1 gap-x-16 gap-y-14 md:grid-cols-2">
+              {services.map((s) => (
+                <article key={s.nr} className="border-t border-border pt-6">
+                  <div className="mb-6 font-mono text-xs text-accent">{s.nr}</div>
+                  <h3 className="mb-4 text-2xl font-extrabold tracking-tight">{s.title}</h3>
+                  <p className="max-w-sm text-sm leading-relaxed text-muted-foreground">{s.text}</p>
+                </article>
+              ))}
+            </div>
           </div>
         </section>
 
@@ -215,34 +211,39 @@ function Index() {
       </main>
 
       {/* Kontakt */}
-      <footer id="kontakt" className="border-t border-border px-6 pb-12 pt-32 md:px-12">
-        <div className="flex flex-col items-start justify-between gap-12 md:flex-row md:items-end">
-          <div>
-            <p className="mb-8 max-w-md text-2xl font-extrabold tracking-tight md:text-3xl">
-              Har du en fastighet, ett projekt eller en utmaning inom hållbarhet som söker rätt
-              samarbetspartner?
-            </p>
-            <div className="mb-6 flex items-baseline gap-3">
-              <span className="text-6xl font-extrabold tracking-tighter md:text-7xl">TALL.</span>
-              <img
-                src={tallPine}
-                alt="Tall"
-                width={40}
-                height={66}
-                className="h-10 w-auto md:h-16"
-              />
-            </div>
-            <address className="space-y-2 font-mono text-[10px] uppercase not-italic tracking-widest">
-              <p>Olympiavägen 94</p>
-              <p>112 40 Enskede</p>
-              <p className="mt-4 text-accent">
-                <a href="mailto:johan@tallfast.se">johan@tallfast.se</a>
+      <footer id="kontakt" className="border-t border-border px-6 pb-12 pt-32 md:grid md:grid-cols-12 md:px-12">
+        <div className="pt-4 font-mono text-[10px] uppercase tracking-widest md:col-span-2">
+          (04) Kontakt
+        </div>
+        <div className="md:col-span-10">
+          <div className="flex flex-col items-start justify-between gap-12 md:flex-row md:items-end">
+            <div>
+              <p className="mb-8 max-w-md text-2xl font-extrabold tracking-tight md:text-3xl">
+                Har du en fastighet, ett projekt eller en utmaning inom hållbarhet som söker rätt
+                samarbetspartner?
               </p>
-            </address>
+              <div className="mb-6 flex items-baseline gap-3">
+                <span className="text-6xl font-extrabold tracking-tighter md:text-7xl">TALL.</span>
+                <img
+                  src={tallPine}
+                  alt="Tall"
+                  width={40}
+                  height={66}
+                  className="h-10 w-auto md:h-16"
+                />
+              </div>
+              <address className="space-y-2 font-mono text-[10px] uppercase not-italic tracking-widest">
+                <p>Olympiavägen 94</p>
+                <p>112 40 Enskede</p>
+                <p className="mt-4 text-accent">
+                  <a href="mailto:johan@tallfast.se">johan@tallfast.se</a>
+                </p>
+              </address>
+            </div>
+            <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
+              © {new Date().getFullYear()} Tall Utveckling AB
+            </p>
           </div>
-          <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
-            © {new Date().getFullYear()} Tall Utveckling AB
-          </p>
         </div>
       </footer>
     </div>
