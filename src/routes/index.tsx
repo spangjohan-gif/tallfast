@@ -48,12 +48,7 @@ const services = [
   {
     nr: "02",
     title: "Hållbarhetsexpert",
-    text: "Vi kliver in som hållbarhetschef, manager eller interim. Strategisk rådgivning och operativt genomförande av hållbarhetsmål – från målbild och policy till valbara åtgärder och uppföljning.",
-  },
-  {
-    nr: "03",
-    title: "Kommunikation",
-    text: "Vi upprättar strategier och stöttar implementeringen. Strategisk rådgivning och förankring som gör att mål och budskap når ända ut i organisationen och till intressenter.",
+    text: "Vi kliver in som hållbarhetschef, manager eller interim. Strategisk rådgivning och operativt genomförande av hållbarhetsmål – från målbild och policy till valbara åtgärder och uppföljning. Kommunikation och förankring ingår som en naturlig del av arbetet.",
   },
 ];
 
